@@ -1,3 +1,6 @@
+body{
+  font-family: 'Noto Sans', sans-serif;
+}
 .title, .about , .my-skills, .my-work, .contact, .main{
   text-align: center;
   color: #29bf89;
@@ -11,12 +14,8 @@
   background: linear-gradient(to bottom, #ffffff 1%,#238fba 73%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
-img{
-  background-color: #e3e3e3;
-  border: solid #c9c9c9;
-  border-radius: 90%;
-}
-h1, h2{
+
+h1, h2, p{
   margin: 2rem auto;
 }
 /* 7E8D85 0083BB BDBDBE 29bf89 FFF*/
@@ -33,4 +32,18 @@ h1, h2{
 .me-photo{
   margin: 10% auto;
   width: 80%;
+  background-color: #e3e3e3;
+  border: solid #c9c9c9;
+  border-radius: 90%;
+}
+.about{
+  margin: 10% auto;
+}
+.about img{
+  width: 100%;
+  border-radius: 3%;
+}
+.about-text{
+  margin: 10% auto;
+  font-size: 2rem;
 }
